@@ -1,8 +1,9 @@
 # Personal FAQ Accordion  
 
 This project is a simple **FAQ accordion** built with HTML, CSS, and JavaScript.  
-It contains personal questions and answers about me, displayed in an interactive accordion style.  
-The accordion allows only one answer to be visible at a time, with smooth icon rotation when toggled.  
+It was built as part of the [Roadmap.sh Accordion Project](https://roadmap.sh/projects/accordion).  
+The accordion contains personal questions and answers about me, displayed in an interactive accordion style.  
+Only one answer can be visible at a time, with smooth icon rotation when toggled.  
 
 ---
 
@@ -21,7 +22,7 @@ The accordion allows only one answer to be visible at a time, with smooth icon r
 
 ---
 
-## Setup  
+##  Setup  
 
 1. Clone the repository:  
    ```bash
