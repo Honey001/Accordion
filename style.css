@@ -1,0 +1,48 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1rem;
+	min-height: 100vh;
+}
+.container {
+	margin: 0 auto;
+	width: 30rem;
+}
+.text {
+	text-align: center;
+}
+#FAQ {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 0.5rem;
+}
+.accordion-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+	border: 1px solid #000;
+	background-color: #000;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.answer {
+	color: #000;
+	border: 2px solid #000;
+	border-radius: 15px;
+	padding: 0.5rem;
+}
+.icon {
+	transition: all 0.3s ease-in-out;
+	display: inline-block;
+}
+.active {
+	transform: rotate(180deg);
+}
+.hidden {
+	display: none;
+}
