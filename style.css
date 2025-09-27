@@ -2,9 +2,12 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 1rem;
 	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-flow: column nowrap;
+	align-items: center;
 }
 .container {
-	margin: 0 auto;
 	width: 30rem;
 }
 .text {
